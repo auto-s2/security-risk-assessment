@@ -1,0 +1,171 @@
+{
+	"CVE-2021-34570_PLC_3": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+		"CVE-2020-12521_PLC_3": {
+		"attackVector": "ADJACENT_NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-12519_PLC_3": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-12518_PLC_3": {
+		"attackVector": "LOCAL",
+		"scope": "UNCHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "NONE"
+	},
+	"CVE-2020-12517_PLC_3": {
+		"attackVector": "NETWORK",
+		"scope": "CHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	
+	"CVE-2021-34570": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-12521": {
+		"attackVector": "ADJACENT_NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-12519": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-12518": {
+		"attackVector": "LOCAL",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "NONE"
+	},
+	"CVE-2020-12517": {
+		"attackVector": "NETWORK",
+		"scope": "CHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-6994": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2020-9307": {
+		"attackVector": "ADJACENT_NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2019-16670": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2019-16671": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "NONE",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2019-16672": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2019-16673": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "NONE"
+	},
+	"CVE-2019-16674": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2018-5471": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "HIGH",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "NONE",
+		"availabilityImpact": "NONE"
+	},
+	"CVE-2018-5469": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	},
+	"CVE-2018-5467": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "LOW",
+		"integrityImpact": "LOW",
+		"availabilityImpact": "NONE"
+	},
+	"CVE-2018-5465": {
+		"attackVector": "NETWORK",
+		"scope": "UNCHANGED",
+		"attackComplexity": "LOW",
+		"confidentialityImpact": "HIGH",
+		"integrityImpact": "HIGH",
+		"availabilityImpact": "HIGH"
+	}
+}
