@@ -116,7 +116,7 @@ class CVE():
         if cve_id in known_cves:
             # For Test only in order to reduce the number of requtests to the NIST NVD, as this is limited
             return known_cves[cve_id]
-        api_url = "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=" + cve_id
+        api_url = setup.CVE_API_URL + cve_id
         retry = 3
         response = requests.Request()
         while retry:

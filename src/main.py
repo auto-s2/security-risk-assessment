@@ -21,13 +21,13 @@ while not selected:
     number = input("Enter Number: ")
 
     if number == "1":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_1.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_1.json"
         selected = True
     elif number == "2":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_2.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_2.json"
         selected = True
     elif number == "3":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_3.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_3.json"
         selected = True
     elif number == "0":
         path = input("Enter path to AAS-JSON: ")
