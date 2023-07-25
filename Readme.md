@@ -4,9 +4,8 @@
 
 This repository is currently work in progress and used to display the results from the AutoS² research project and the associated dissertation. The following publications directly reference this repository:
 
-- [INDIN 2023](https://2023.ieee-indin.org/): Determining the Target Security Level for Automated Security Risk Assessments (accepted)
-- [ETFA 2023](https://2023.ieee-etfa.org/): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments (accepted)
-- [KommA 2023](https://www.ifak.eu/de/komma): Evaluation of an Information Model towards Automated Security Risk Assessments for Manufacturing Systems (submitted & in review)
+- [INDIN 2023](https://2023.ieee-indin.org/): Determining the Target Security Level for Automated Security Risk Assessments
+- [ETFA 2023](https://2023.ieee-etfa.org/): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments
 
 Therefore, any feedback regarding the presented contents here in this repository are highly appreciated and can be submitted to us using the contact details from the bottom of this file.
 
