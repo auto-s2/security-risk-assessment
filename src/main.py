@@ -16,7 +16,7 @@ while not selected:
     print("Select:")
     print("1: Example 1 (with Risks)")
     print("2: Example 2 (some Risks are mitigated)")
-    print("3: Example 3 (all Risks are mitigated")
+    print("3: Example 3 (all Risks are mitigated)")
     print("0: Custom (select your own file)")
     number = input("Enter Number: ")
 
