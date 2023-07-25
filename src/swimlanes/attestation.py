@@ -109,7 +109,7 @@ def create_attestation(machine:Machine, computing_time:float) -> Machine:
     pdf.text_block("Results", results_texts, 120)
     pdf.text_block("All Targets and Resulting Risks", risks_dict, 60)
 
-    pdf.image("doc/AutoS2_Logo.png", x=150, y=20, w=40,h=40)
+    pdf.image(setup.BASE_PATH + "/doc/AutoS2_Logo.png", x=150, y=20, w=40,h=40)
 
     if len(setup.error_list) > 0:
         pdf.add_page()

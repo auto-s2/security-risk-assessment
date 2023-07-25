@@ -4,9 +4,8 @@
 
 This repository is currently work in progress and used to display the results from the AutoS² research project and the associated dissertation. The following publications directly reference this repository:
 
-- [INDIN 2023](https://2023.ieee-indin.org/): Determining the Target Security Level for Automated Security Risk Assessments (accepted)
-- [ETFA 2023](https://2023.ieee-etfa.org/): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments (submitted & in review)
-- [KommA 2023](https://www.ifak.eu/de/komma): Evaluation of an Information Model towards Automated Security Risk Assessments for Manufacturing Systems (submitted & in review)
+- [INDIN 2023](https://2023.ieee-indin.org/): Determining the Target Security Level for Automated Security Risk Assessments
+- [ETFA 2023](https://2023.ieee-etfa.org/): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments
 
 Therefore, any feedback regarding the presented contents here in this repository are highly appreciated and can be submitted to us using the contact details from the bottom of this file.
 
@@ -31,7 +30,7 @@ The repository consists of the following folders:
 
 ## Getting Started
 
-The prototypical implementation is tested with Python 3.9.5. In order to execute the three example test cases, please follow the following steps:
+The prototypical implementation is tested with Python 3.9.5 on a Windows and a Ubuntu Linux system. In order to execute the three example test cases, please follow the following steps:
 
 1. Clone the repository
 2. Install the required dependencies (see `src/requirements.txt`)

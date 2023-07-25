@@ -16,18 +16,18 @@ while not selected:
     print("Select:")
     print("1: Example 1 (with Risks)")
     print("2: Example 2 (some Risks are mitigated)")
-    print("3: Example 3 (all Risks are mitigated")
+    print("3: Example 3 (all Risks are mitigated)")
     print("0: Custom (select your own file)")
     number = input("Enter Number: ")
 
     if number == "1":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_1.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_1.json"
         selected = True
     elif number == "2":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_2.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_2.json"
         selected = True
     elif number == "3":
-        path = setup.SYSTEM_PATH + "/../aas_examples/CPS_Example_3.json"
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_3.json"
         selected = True
     elif number == "0":
         path = input("Enter path to AAS-JSON: ")
