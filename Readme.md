@@ -31,7 +31,7 @@ The repository consists of the following folders:
 
 ## Getting Started
 
-The prototypical implementation is tested with Python 3.9.5. In order to execute the three example test cases, please follow the following steps:
+The prototypical implementation is tested with Python 3.9.5 on a Windows and a Ubuntu Linux system. In order to execute the three example test cases, please follow the following steps:
 
 1. Clone the repository
 2. Install the required dependencies (see `src/requirements.txt`)
