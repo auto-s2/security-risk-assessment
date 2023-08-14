@@ -1,5 +1,5 @@
 from typing import List
-from domain_model.requirements_guarantees_classes import Security_Level_IEC_62443, Mitre_Technique
+from domain_model.requirements_guarantees_classes import Security_Level_Enum, Security_Level_IEC_62443, Mitre_Technique
 from domain_model.risk_assessment_classes import CVE, Risk
 from domain_model.network_segmentation_classes import Zone
 
@@ -31,9 +31,15 @@ class Asset():
         for submodel in self.submodels:
             if submodel["idShort"]==id_short:
                 return submodel
+    
+    def get_submodel_by_semantic_id(self, semantic_id:str):
+        for submodel in self.submodels:
+            if submodel["semanticId"]["keys"][0]["value"] == semantic_id:
+                return submodel
 
     def get_hierarchical_structure(self, aass_json:dict, type:str):
-        hierarchy = self.get_submodel_by_id_short("HierarchicalStructures") # TODO: Get by SemanticID
+        # hierarchy = self.get_submodel_by_id_short("HierarchicalStructures")
+        hierarchy = self.get_submodel_by_semantic_id("https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel")
         submodel_elements = hierarchy.get("submodelElements")
         if hierarchy is None or submodel_elements is None:
             return []
@@ -51,10 +57,10 @@ class Asset():
                 if submodel_element["value"] != "OneDown":
                     raise ValueError("Wrong Structure in Hierarical Structre. ArcheType 'OneDown' not found (SemanticID https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0)")
             elif submodel_element["semanticId"]["keys"][0]["value"] == "https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0":
-                current_aas_id = submodel_element["globalAssetId"]["keys"][0]["value"]
+                current_aas_id = submodel_element["asset"]["keys"][0]["value"]
                 for entity_statement_json in submodel_element["statements"]:
                     if   entity_statement_json["semanticId"]["keys"][0]["value"] == "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0":
-                        aas_id_list.append(entity_statement_json["globalAssetId"]["keys"][0]["value"])
+                        aas_id_list.append(entity_statement_json["asset"]["keys"][0]["value"])
                     # Additional check:
                     elif entity_statement_json["semanticId"]["keys"][0]["value"] == "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0":
                         if entity_statement_json["first"]["keys"][0]["value"] != current_aas_id:
@@ -87,7 +93,7 @@ class Asset():
             print(aas.id)
 
     def get_suitable_for_safety_functions_property(self) -> bool:
-        misc_component_submodel = self.get_submodel_by_id_short("MiscComponentSubmodel")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
         if misc_component_submodel is None:
             return False
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
@@ -99,7 +105,7 @@ class Asset():
 
     def get_physical_port_endpoint_ids(self) -> list[(str, str)]:
         physical_port_id_list:list[(str, str)] = ([])
-        misc_component_submodel = self.get_submodel_by_id_short("MiscComponentSubmodel")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
@@ -110,7 +116,7 @@ class Asset():
 
     def get_cve_ids(self) -> list[str]:
         cve_id_list:list[str] = []
-        misc_component_submodel = self.get_submodel_by_id_short("MiscComponentSubmodel")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
@@ -119,15 +125,31 @@ class Asset():
             cve_id_list.append(cve["value"])
         return cve_id_list
 
-    def get_sl_from_aas(self, name:str) -> Security_Level_IEC_62443:
-        security_submodel_found = False
-        for submodel in self.submodels:
-            if submodel["idShort"] == "SecurityLevelIEC62443":
-                security_submodel_found = True
-                if submodel["submodelElements"][0]["value"] == name:
-                    sl = Security_Level_IEC_62443(submodel["submodelElements"][0]["value"], submodel["submodelElements"][1]["value"], submodel["submodelElements"][2]["value"]) 
-                    for i in range(3, 10):
-                        crs_srs = submodel["submodelElements"][i]["value"]
+    def get_sl_from_aas(self, seachred_type:Security_Level_Enum) -> Security_Level_IEC_62443:
+        submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/SecurityLevelIEC62443")
+        for sl_vector in submodel["submodelElements"]:
+            security_level_type:str = sl_vector["idShort"]
+            security_level_type = security_level_type.replace("_", "-")
+            security_level_type_enum:Security_Level_Enum
+            if "SL-C" in security_level_type:
+                security_level_type_enum = Security_Level_Enum.SL_C
+            elif "SL-A" in security_level_type:
+                security_level_type_enum = Security_Level_Enum.SL_A
+            elif "SL-T" in security_level_type:
+                security_level_type_enum = Security_Level_Enum.SL_T
+            elif "SL-Status" in security_level_type:
+                security_level_type_enum = Security_Level_Enum.SL_STATUS
+            else:
+                raise Exception("Unknown SL-Vector", security_level_type)
+            if security_level_type_enum is seachred_type:
+                sl = Security_Level_IEC_62443(security_level_type_enum)
+                for sl_content in sl_vector["value"]:
+                    if sl_content["idShort"] == "Level":
+                        sl.system_or_component = sl_content["value"]
+                    elif sl_content["idShort"] == "DataOrigin":
+                        sl.data_origin = sl_content["value"]
+                    elif "FR_" in sl_content["idShort"]:
+                        crs_srs = sl_content["value"]
                         for cr_sr in crs_srs:
                             cr_sr_id:str = cr_sr["idShort"]
                             fr = cr_sr_id.split("_")[2]
@@ -138,9 +160,7 @@ class Asset():
                                 sl.cr_sr[fr+"."+rq] = value
                             else:
                                 sl.cr_sr[fr+"."+rq] = "0"
-                    return sl
-        if security_submodel_found:
-            raise Exception("Unknown SecurityLevelIEC62443 Submodel", submodel["submodelElements"][0]["value"], name)
+                return sl
 
 
 class Machine(Asset):
@@ -164,10 +184,10 @@ class Component(Asset):
         self.level:str = "Component"
         self.is_suitable_for_safety_functions:bool = self.get_suitable_for_safety_functions_property()
         self.physical_port_endpoint_ids:List[Port] = self.get_physical_port_endpoint_ids()
-        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443("SL-T", "Component", "AutoS²") 
-        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443("SL-Status", "Component", "AutoS²") 
-        self.sl_c:Security_Level_IEC_62443 = self.get_sl_from_aas("SL-C")
-        self.sl_a:Security_Level_IEC_62443 = self.get_sl_from_aas("SL-A")
+        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_T, "Component", "AutoS²") 
+        self.sl_c:Security_Level_IEC_62443 = self.get_sl_from_aas(Security_Level_Enum.SL_C)
+        self.sl_a:Security_Level_IEC_62443 = self.get_sl_from_aas(Security_Level_Enum.SL_A)
+        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_STATUS, "Component", "AutoS²") 
         self.cve_ids:List[str] = self.get_cve_ids()
         self.cves:List[CVE] = []
         self.is_access_point:bool = False

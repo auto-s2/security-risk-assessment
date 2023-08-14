@@ -2,6 +2,7 @@ from domain_model.requirements_guarantees_classes import Mitre_Technique, Securi
 from domain_model.asset_classes import Machine
 import setup
 
+
 def initialize_sl_status_vector(machine:Machine) -> Machine:
     print("Initialize all CR-Status and SR-Status with the default value 'NoDefinition'")
     for module in machine.hierarchy:
