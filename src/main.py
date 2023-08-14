@@ -17,6 +17,7 @@ while not selected:
     print("1: Example 1 (with Risks)")
     print("2: Example 2 (some Risks are mitigated)")
     print("3: Example 3 (all Risks are mitigated)")
+    print("4: Example with random SL-C and SL-A values")
     print("0: Custom (select your own file)")
     number = input("Enter Number: ")
 
@@ -29,8 +30,11 @@ while not selected:
     elif number == "3":
         path = setup.BASE_PATH + "/aas_examples/CPS_Example_3.json"
         selected = True
+    elif number == "4":
+        path = setup.BASE_PATH + "/aas_examples/CPS_Example_1_random_SL_Values.json"
+        selected = True
     elif number == "0":
-        path = input("Enter path to AAS-JSON: ")
+        path = input("Enter path to AAS-JSON file: ")
         selected = True
     else:
         print()
