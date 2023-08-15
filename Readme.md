@@ -62,7 +62,7 @@ In order to create a custom test case, the AASs have to follow a defined structu
 
 The relationship between the machine and modules is defined in the Submodel *HierarchicalStructures* (see [Additional Resources](#additional-resources)) in the AAS of the machine. Similarly, the relationship between the modules and components is defined in the Submodel *HierarchicalStructures* in the AASs of the modules. The component AASs need to contain the *MiscComponentSubmodel* with the property *SuitableForSafetyFunctions*, the CVEs, and Physical Connections of the component. In addition, each component should contain a Submodel *SecurityLevelIEC62443* with the SL-C and SL-A values.
 
-### Create and modify AASs
+### Open and edit AAS Examples
 
 The used AASs are created with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). In order to open and edit the AASs provided as JSON files, follow these steps:
 
