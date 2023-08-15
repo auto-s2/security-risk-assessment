@@ -56,7 +56,7 @@ After starting the program, you can select one of the three examples (see [Docum
 
 ### Create your own Test Cases
 
-In order to create a custom test case, the AASs have to follow a defined structure. All AASs of the machine, including the AASs of the modules and components, need to be stored in a single JSON file according to the three examples in the folder `aas`. A machine consists of an arbitrary number of modules. The modules consist of an arbitrary number of components as shown in the following figure:
+In order to create a custom test case, the AASs have to follow a defined structure. All AASs of the machine, including the AASs of the modules and components, need to be stored in a single JSON file according to the three examples in the folder `aas_examples`. A machine consists of an arbitrary number of modules. The modules consist of an arbitrary number of components as shown in the following figure:
 
 ![AAS Structure](doc/AAS_Structure.png)
 
@@ -82,13 +82,13 @@ After editing the files, you can save these as JSON files:
 
 ### Random SL-C and SL-A Generator
 
-As many component manufacturer do not provide the SL-C and and SL-A values for each component, you can use the **Random_SL_Generator.py** located in the `aas_examples` folder. Therefore, execure the `Random_SL_Generator.py` script and follow the instructions in the command window. The script will fill all CR values inside the *SecurityLevelIEC62443* with random numbers between 0 and 4. The SL-A value for each CR is always smaller or equal to the corresponding SL-C value.
+As many component manufacturers do not provide the SL-C and and SL-A values for each component yet, you can use the **Random_SL_Generator.py** located in the `aas_examples` folder. Therefore, execute the `Random_SL_Generator.py` script and follow the instructions in the command window. The script will fill all CR values inside the *SecurityLevelIEC62443* with random numbers between 0 and 4. The SL-A value for each CR is always smaller or equal to the corresponding SL-C value.
 
 ### AAS and Submodel Status
 
-- The current versions uses AAS generated with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). A compability to future AASs of version 3 is planned and part if the future work.
+- The current versions uses AAS generated with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). A compability to future AASs of version 3 is planned and part of the future work.
 
-- After running the implementation, the security risk assessment results should be written to the *SecurityAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² project and not standardized yet. The functionality to write the result is currently not implemented and part of the future work.
+- After running the implementation, the security risk assessment results should be written to the *SecurityAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² research project and not standardized yet. The functionality to write the result is currently not implemented and part of the future work.
 
 - In future, the CVEs will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process.
 
