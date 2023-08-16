@@ -23,7 +23,7 @@ This section describes how to use, test, and extend the prototypical implementat
 
 The repository consists of the following folders:
 
-- `aas_examples` contains three Asset Administration Shells (AASs) in the JSON format acting as the basis for three test cases
+- `aas_examples` contains three Asset Administration Shells (AASs) acting as the basis for three test cases
 - `doc` contains additional documentation documents
 - `knowledge` contains files with the formalized expert knowledge for the automated risk assessment
 - `src` contains the program code of the prototypical implementation
@@ -36,7 +36,7 @@ The prototypical implementation is tested with Python 3.9.5 on a Windows and a U
 2. Install the required dependencies (see `src/requirements.txt`)
 3. Run the file `src/main.py`
 
-An Internet connection is required as the implementation requests information about exemplary vulnerabilities from the [NIST NVD](https://nvd.nist.gov/) (National Vulnerability Database).
+An Internet connection is required to run the examples as the implementation requests information about exemplary vulnerabilities from the [NIST NVD](https://nvd.nist.gov/) (National Vulnerability Database).
 
 After starting the program, you can select one of the three examples (see [Documentation](#documentation)) by entering the number 1, 2, or 3 when requested. After pressing *Enter*, information about the executed steps and intermediate results are printed to the terminal window. At the end, the final results of the risk assessment are shown in the terminal window. In addition, a PDF file `Attestation.pdf` is generated and stored in the main repository folder.
 
@@ -56,19 +56,41 @@ After starting the program, you can select one of the three examples (see [Docum
 
 ### Create your own Test Cases
 
-In order to create a custom test case, the AASs have to follow a defined structure. All AASs of the machine, including the AASs of the modules and components, need to be stored in a single JSON file according to the three examples in the folder `aas`. A machine consists of an arbitrary number of modules. The modules consist of an arbitrary number of components as shown in the following figure:
+In order to create a custom test case, the AASs have to follow a defined structure. All AASs of the machine, including the AASs of the modules and components, need to be stored in a single JSON file according to the three examples in the folder `aas_examples`. A machine consists of an arbitrary number of modules. The modules consist of an arbitrary number of components as shown in the following figure:
 
 ![AAS Structure](doc/AAS_Structure.png)
 
-The relationship between the machine and modules is defined in the Submodel *HierarchicalStructures* (see [Additional Resources](#additional-resources)) in the AAS of the machine. Similarly, the relationship between the modules and components is defined in the Submodel *HierarchicalStructures* in the AASs of the modules. The component AASs need to contain the *MiscComponentSubmodel* with the property *SuitableForSafetyFunctions*, the CVEs, and Physical Connections of the component. In addition, each component should contain two Submodels *SecurityLevelIEC62443* with the SL-C and SL-A values.
+The relationship between the machine and modules is defined in the Submodel *HierarchicalStructures* (see [Additional Resources](#additional-resources)) in the AAS of the machine. Similarly, the relationship between the modules and components is defined in the Submodel *HierarchicalStructures* in the AASs of the modules. The component AASs need to contain the *MiscComponentSubmodel* with the property *SuitableForSafetyFunctions*, the CVEs, and Physical Connections of the component. In addition, each component should contain a Submodel *SecurityLevelIEC62443* with the SL-C and SL-A values.
 
-### AAS Status
+### Open and edit AAS Examples
 
-Because of version incompatibilities of different AASs, the AASs used in this project are generated with a proprietary tool and only provided in the JSON representation. As a result, the JSON structure is incompatible with the AASX Package Explorer as of now, a tool with a user interface to show and edit AASs. In future, the JSON representation will be replaced by using the REST API of an AASX Server and using AASs compatible to the AASX Package Explorer.
+The used AASs are created with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). In order to open and edit the AASs provided as JSON files, follow these steps:
 
-In addition, the security risk assessment results should be written to the *SecurityAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² project and not standardized yet.
+1. Open the AASX Package Explorer
+2. Click `File` -> `Open ..`
+3. Select `AAS JSON file (*.json)` on the bottom right
+4. Select one of the provided examples and click `Open`
+5. Click `Workspace` -> `Edit`
 
-Finally, in future, the CVEs will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process.
+After editing the files, you can save these as JSON files:
+
+1. Click `File` -> `Save as ..`
+2. Select `AAS JSON file (*.json)`
+3. Save your AAS as a JSON file
+4. Run the implementation and enter the number `0` when requested
+5. Enter the whole path including the complete file name of your AAS and press enter
+
+### Random SL-C and SL-A Generator
+
+As many component manufacturers do not provide the SL-C and and SL-A values for each component yet, you can use the **Random_SL_Generator.py** located in the `aas_examples` folder. Therefore, execute the `Random_SL_Generator.py` script and follow the instructions in the command window. The script will fill all CR values inside the *SecurityLevelIEC62443* with random numbers between 0 and 3. The SL-A value for each CR is always smaller or equal to the corresponding SL-C value. SL-4 values are excluded here.
+
+### AAS and Submodel Status
+
+- The current versions uses AAS generated with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). A compability to future AASs of version 3 is planned and part of the future work.
+
+- After running the implementation, the security risk assessment results should be written to the *SecurityAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² research project and not standardized yet. The functionality to write the result is currently not implemented and part of the future work.
+
+- In future, the CVEs will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process.
 
 # Documentation
 

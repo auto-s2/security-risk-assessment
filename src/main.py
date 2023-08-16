@@ -30,7 +30,7 @@ while not selected:
         path = setup.BASE_PATH + "/aas_examples/CPS_Example_3.json"
         selected = True
     elif number == "0":
-        path = input("Enter path to AAS-JSON: ")
+        path = input("Enter path to AAS-JSON file: ")
         selected = True
     else:
         print()
