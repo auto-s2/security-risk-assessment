@@ -82,7 +82,7 @@ After editing the files, you can save these as JSON files:
 
 ### Random SL-C and SL-A Generator
 
-As many component manufacturers do not provide the SL-C and and SL-A values for each component yet, you can use the **Random_SL_Generator.py** located in the `aas_examples` folder. Therefore, execute the `Random_SL_Generator.py` script and follow the instructions in the command window. The script will fill all CR values inside the *SecurityLevelIEC62443* with random numbers between 0 and 4. The SL-A value for each CR is always smaller or equal to the corresponding SL-C value.
+As many component manufacturers do not provide the SL-C and and SL-A values for each component yet, you can use the **Random_SL_Generator.py** located in the `aas_examples` folder. Therefore, execute the `Random_SL_Generator.py` script and follow the instructions in the command window. The script will fill all CR values inside the *SecurityLevelIEC62443* with random numbers between 0 and 3. The SL-A value for each CR is always smaller or equal to the corresponding SL-C value. SL-4 values are excluded here.
 
 ### AAS and Submodel Status
 
