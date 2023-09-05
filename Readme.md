@@ -1,4 +1,4 @@
-# AutoS² Automated Risk Assessment
+# AutoS² Automated Security Risk Assessment
 
 ## General Information and Status of Implementation
 
