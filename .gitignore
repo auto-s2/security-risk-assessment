@@ -7,9 +7,9 @@ aas_examples/*
 ! aas_examples/CPS_Example_2.json
 ! aas_examples/CPS_Example_3.json
 ! aas_examples/Random_SL_Generator.py
-! AAS_SM_Template_MiscComponentSubmodel.aasx
-! AAS_SM_Template_SecurityAssessment.aasx
-! AAS_SM_Template_SecurityLevelIEC62443.aasx
+! aas_examples/AAS_SM_Template_MiscComponentSubmodel.aasx
+! aas_examples/AAS_SM_Template_SecurityAssessment.aasx
+! aas_examples/AAS_SM_Template_SecurityLevelIEC62443.aasx
 
 __pycache__
 *.py[cod]
