@@ -58,11 +58,11 @@ After starting the program, you can select one of the three examples (see [Docum
 
 In order to create a custom test case, the AASs have to follow a defined structure. All AASs of the machine, including the AASs of the modules and components, need to be stored in a single JSON file according to the three examples in the folder `aas_examples`. A machine consists of an arbitrary number of modules. The modules consist of an arbitrary number of components as shown in the following figure:
 
-![AAS Structure](doc/AAS_Structure.png)
+![AAS Structure](doc/AAS_Structure_grey.png)
 
 The relationship between the machine and modules is defined in the Submodel *HierarchicalStructures* (see [Additional Resources](#additional-resources)) in the AAS of the machine. Similarly, the relationship between the modules and components is defined in the Submodel *HierarchicalStructures* in the AASs of the modules. 
 
-The component AASs need to contain the *MiscComponentSubmodel* with the property *SuitableForSafetyFunctions*, the CVEs, and Physical Connections of the component. In addition, each component should contain a Submodel *SecurityLevelIEC62443* with the SL-C and SL-A values. For each of those two Submodels, there is an AAS with a Submodel Template provided in the folder `aas_examples` of this repository.
+The component AASs need to contain the *Miscellaneous* Submodel with the property *SuitableForSafetyFunctions*, the CVEs, and Physical Connections of the component. In addition, each component should contain a Submodel *SecurityLevelIEC62443* with the SL-C and SL-A values. For each of those two Submodels, there is an AAS with a Submodel Template provided in the folder `aas_examples` of this repository.
 
 ### Open and edit AAS Examples
 
@@ -90,9 +90,9 @@ As many component manufacturers do not provide the SL-C and and SL-A values for 
 
 - The current versions uses AAS generated with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). A compability to future AASs of version 3 is planned and part of the future work.
 
-- After running the implementation, the security risk assessment results should be written to the *SecurityAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² research project and not standardized yet. The functionality to write the results is currently not implemented and part of the future work. However, the Submodel Templates containing the structure of those two Submodels are provided in the folder `aas_examples` of this repository.
+- After running the implementation, the security risk assessment results should be written to the *SecurityRiskAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² research project and not standardized yet. The functionality to write the results is currently not implemented and part of the future work. However, the Submodel Templates containing the structure of those two Submodels are provided in the folder `aas_examples` of this repository.
 
-- In future, the CVEs that are currently stored in the *MiscComponentSubmodel* will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process of the IDTA.
+- In future, the CVEs that are currently stored in the *Miscellaneous* Submodel will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process of the IDTA.
 
 # Documentation
 
