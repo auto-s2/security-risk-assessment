@@ -21,9 +21,9 @@ def initialize_sl_status_vector(machine:Machine) -> Machine:
 
 def generate_mitre_sl_t_vector(all_mitre_techniques:list[Mitre_Technique]) -> Security_Level_IEC_62443:
     print("Check for highest SL-T from all linked MITRE Techniques")
-    sl_t = Security_Level_IEC_62443("SL-T", "AllAssets", "MITRE")
+    sl_t = Security_Level_IEC_62443("SL-T")
     if setup.PRINT_RESULTS: 
-        print("Before SL-T Assignment:", Security_Level_IEC_62443("SL-T", "AllAssets", "MITRE").cr_sr)
+        print("Before SL-T Assignment:", Security_Level_IEC_62443("SL-T").cr_sr)
     for technique in all_mitre_techniques:
         for mitigation in technique.mitigations:
             for key, value in sl_t.cr_sr.items():

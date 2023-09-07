@@ -12,10 +12,10 @@ class Zone():
         self.accountable:Employee
         self.responsible:Employee
         self.safety:bool = safety
-        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_T, "System", "AutoS²")
-        self.sl_c:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_C, "System", "AutoS²")
-        self.sl_a:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_A, "System", "AutoS²")
-        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_STATUS, "System", "AutoS²")
+        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_T)
+        self.sl_c:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_C)
+        self.sl_a:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_A)
+        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_STATUS)
         self.access_points_secure:bool = False
 
 

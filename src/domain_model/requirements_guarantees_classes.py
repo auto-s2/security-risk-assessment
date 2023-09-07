@@ -26,10 +26,8 @@ class Security_Level_Enum(Enum):
 
 class Security_Level_IEC_62443():
 
-    def __init__(self, security_level_type:str, system_or_component="Component", data_origin="AutoS²"):
+    def __init__(self, security_level_type:str):
         self.security_level_type:Security_Level_Enum = Security_Level_Enum(security_level_type)
-        self.system_or_component:str = system_or_component
-        self.data_origin:str = data_origin
         if security_level_type is Security_Level_Enum.SL_STATUS:
             default_value = SL_Status_Enum.NODEFINITION
         else:
@@ -42,8 +40,6 @@ class Security_Level_IEC_62443():
 
     def print_vector(self):
         print(self.security_level_type.value)
-        print(self.system_or_component)
-        print(self.data_origin)
         for key, value in self.cr_sr.items():
             print("CR/SR", key, "--", self.security_level_type.value, value)
   

@@ -144,11 +144,7 @@ class Asset():
             if security_level_type_enum is seachred_type:
                 sl = Security_Level_IEC_62443(security_level_type_enum)
                 for sl_content in sl_vector["value"]:
-                    if sl_content["idShort"] == "Level":
-                        sl.system_or_component = sl_content["value"]
-                    elif sl_content["idShort"] == "DataOrigin":
-                        sl.data_origin = sl_content["value"]
-                    elif "FR_" in sl_content["idShort"]:
+                    if "FR_" in sl_content["idShort"]:
                         crs_srs = sl_content["value"]
                         for cr_sr in crs_srs:
                             cr_sr_id:str = cr_sr["idShort"]
@@ -184,10 +180,10 @@ class Component(Asset):
         self.level:str = "Component"
         self.is_suitable_for_safety_functions:bool = self.get_suitable_for_safety_functions_property()
         self.physical_port_endpoint_ids:List[Port] = self.get_physical_port_endpoint_ids()
-        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_T, "Component", "AutoS²") 
+        self.sl_t:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_T) 
         self.sl_c:Security_Level_IEC_62443 = self.get_sl_from_aas(Security_Level_Enum.SL_C)
         self.sl_a:Security_Level_IEC_62443 = self.get_sl_from_aas(Security_Level_Enum.SL_A)
-        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_STATUS, "Component", "AutoS²") 
+        self.sl_status:Security_Level_IEC_62443 = Security_Level_IEC_62443(Security_Level_Enum.SL_STATUS) 
         self.cve_ids:List[str] = self.get_cve_ids()
         self.cves:List[CVE] = []
         self.is_access_point:bool = False
