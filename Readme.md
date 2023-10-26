@@ -5,7 +5,7 @@
 This repository is currently work in progress and used to display the results from the AutoS² research project and the associated dissertation. The following publications directly reference this repository:
 
 - [INDIN 2023](https://ieeexplore.ieee.org/document/10217902): Determining the Target Security Level for Automated Security Risk Assessments
-- [ETFA 2023](https://2023.ieee-etfa.org/): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments
+- [ETFA 2023](https://ieeexplore.ieee.org/document/10275455): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments
 
 Therefore, any feedback regarding the presented contents here in this repository are highly appreciated and can be submitted to us using the contact details from the bottom of this file.
 
@@ -69,18 +69,17 @@ The component AASs need to contain the *Miscellaneous* Submodel with the propert
 The used AASs are created with the [AASX Package Explorer Release 2023-03-02](https://github.com/admin-shell-io/aasx-package-explorer/releases/tag/v2023-02-03.alpha). In order to open and edit the AASs provided as JSON files, follow these steps:
 
 1. Open the AASX Package Explorer
-2. Click `File` -> `Open ..`
+2. Click `File`, then `Open ..`
 3. Select `AAS JSON file (*.json)` on the bottom right
 4. Select one of the provided examples and click `Open`
-5. Click `Workspace` -> `Edit`
+5. Click `Workspace`, then `Edit`
 
 After editing the files, you can save these as JSON files:
 
-1. Click `File` -> `Save as ..`
-2. Select `AAS JSON file (*.json)`
-3. Save your AAS as a JSON file
-4. Run the implementation and enter the number `0` when requested
-5. Enter the whole path including the complete file name of your AAS and press enter
+1. Click `File`, then `Save as ..`
+2. Select `AAS JSON file (*.json)` to save your AAS as a JSON file
+3. Run the implementation and enter the number `0` when requested
+4. Insert the whole path including the complete file name of your AAS and press the Return Key on your keyboard
 
 ### Random SL-C and SL-A Generator
 
@@ -92,7 +91,7 @@ As many component manufacturers do not provide the SL-C and and SL-A values for 
 
 - After running the implementation, the security risk assessment results should be written to the *SecurityRiskAssessment-* and *SecurityLevelIEC62443*-Submodels of the AASs. Those two Submodels are a result of the AutoS² research project and not standardized yet. The functionality to write the results is currently not implemented and part of the future work. However, the Submodel Templates containing the structure of those two Submodels are provided in the folder `aas_examples` of this repository.
 
-- In future, the CVEs that are currently stored in the *Miscellaneous* Submodel will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process of the IDTA.
+- In future, the CVEs (currently stored in the *Miscellaneous* Submodel) will be provided in a [*VulnerabilityManagement*](https://interopera.de/wp-content/uploads/2022/10/2022_07_Vulnerability_Management.pdf) submodel that is currently in a standardization process of the IDTA.
 
 # Documentation
 
