@@ -26,11 +26,6 @@ class Asset():
                     if submodels["identification"]["id"] == submodel_id:
                         submodel_list.append(submodels)
         return submodel_list
-
-    def get_submodel_by_id_short(self, id_short:str):
-        for submodel in self.submodels:
-            if submodel["idShort"]==id_short:
-                return submodel
     
     def get_submodel_by_semantic_id(self, semantic_id:str):
         for submodel in self.submodels:
@@ -97,7 +92,7 @@ class Asset():
         if misc_component_submodel is None:
             return False
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
-        component_suitable_for_safety:str = get_submodel_element_value(misc_component_submodel_elements, "SuitableForSafetyFunctions")
+        component_suitable_for_safety:str = get_submodel_element_value_by_semantic_id(misc_component_submodel_elements, "0173-1#02-BAD722#009")
         if component_suitable_for_safety.upper() == "TRUE":
             return True
         else:
@@ -109,7 +104,7 @@ class Asset():
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
-        physical_ports_smc = get_submodel_element_value(misc_component_submodel_elements, "PhysicalPorts")
+        physical_ports_smc = get_submodel_element_value_by_semantic_id(misc_component_submodel_elements, "https://init-owl.de/autos2/Miscellaneous/PhysicalPorts/1/0")
         for physical_port in physical_ports_smc:
             physical_port_id_list.append(Port(port_name=physical_port["idShort"], port_endpoint_id=physical_port["value"]["keys"][0]["value"]))
         return physical_port_id_list
@@ -120,7 +115,7 @@ class Asset():
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
-        cve_smc = get_submodel_element_value(misc_component_submodel_elements, "CVEs")
+        cve_smc = get_submodel_element_value_by_semantic_id(misc_component_submodel_elements, "https://init-owl.de/autos2/Miscellaneous/CVEs/1/0")
         for cve in cve_smc:
             cve_id_list.append(cve["value"])
         return cve_id_list
@@ -200,9 +195,9 @@ def get_submodel_elements_from_submodel(submodel) -> list[dict]:
     return submodel["submodelElements"]
 
 
-def get_submodel_element_value(submodel_element, id_short) -> list[dict]:
+def get_submodel_element_value_by_semantic_id(submodel_element, semantic_id) -> list[dict]:
     for sme in submodel_element:
         sme:dict
-        if sme["idShort"] == id_short:
+        if sme["semanticId"]["keys"][0]["value"] == semantic_id:
             return sme.get("value", [])
     return []
