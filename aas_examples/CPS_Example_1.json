@@ -19,7 +19,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CPS/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CPS/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -66,7 +66,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/Cabinet/submodel/nameplate",
+							"value": "https://init-owl.de/aas/Cabinet/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -113,7 +113,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -124,7 +124,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -135,7 +135,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetSwitch/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -171,7 +171,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -182,7 +182,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -193,7 +193,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -229,7 +229,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetPLC/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -240,7 +240,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetPLC/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -251,7 +251,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetPLC/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -287,7 +287,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -298,7 +298,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -309,7 +309,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetPLC_2/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -345,7 +345,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -356,7 +356,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -367,7 +367,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetPLC_3/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -403,7 +403,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/nameplate",
+							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -414,7 +414,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -425,7 +425,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/CabinetPLC_4/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -461,7 +461,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/Conveyor/submodel/nameplate",
+							"value": "https://init-owl.de/aas/Conveyor/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -508,7 +508,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -519,7 +519,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -530,7 +530,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorSwitch/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -566,7 +566,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorValves/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorValves/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -577,7 +577,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorValves/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorValves/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -588,7 +588,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorValves/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorValves/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -624,7 +624,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorBC/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorBC/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -635,7 +635,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorBC/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorBC/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -646,7 +646,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorBC/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorBC/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -682,7 +682,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -693,7 +693,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -704,7 +704,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorRFID/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -740,7 +740,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -751,7 +751,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -762,7 +762,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorLeakage/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -798,7 +798,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorPN/submodel/nameplate",
+							"value": "https://init-owl.de/aas/ConveyorPN/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -809,7 +809,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorPN/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/ConveyorPN/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -820,7 +820,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/ConveyorPN/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/ConveyorPN/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -856,7 +856,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/Laser/submodel/nameplate",
+							"value": "https://init-owl.de/aas/Laser/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -903,7 +903,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserSwitch/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserSwitch/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -914,7 +914,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserSwitch/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserSwitch/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -925,7 +925,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserSwitch/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserSwitch/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -961,7 +961,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPC/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserPC/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -972,7 +972,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPC/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserPC/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -983,7 +983,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPC/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserPC/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1019,7 +1019,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPLC/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserPLC/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1030,7 +1030,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPLC/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserPLC/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1041,7 +1041,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserPLC/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserPLC/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1077,7 +1077,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserBC/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserBC/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1088,7 +1088,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserBC/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserBC/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1099,7 +1099,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserBC/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserBC/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1135,7 +1135,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1146,7 +1146,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1157,7 +1157,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserEnergyMeter/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1193,7 +1193,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserControl/submodel/nameplate",
+							"value": "https://init-owl.de/aas/LaserControl/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1204,7 +1204,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserControl/submodel/MiscComp",
+							"value": "https://init-owl.de/aas/LaserControl/submodel/Miscellaneous",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1215,7 +1215,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/LaserControl/submodel/IEC62443_SL",
+							"value": "https://init-owl.de/aas/LaserControl/submodel/SecurityLevelIEC62443",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1251,7 +1251,7 @@
 						{
 							"type": "Submodel",
 							"local": true,
-							"value": "https://init-owl.de/aas/Exhaust/submodel/nameplate",
+							"value": "https://init-owl.de/aas/Exhaust/submodel/Nameplate",
 							"index": 0,
 							"idType": "IRI"
 						}
@@ -1851,7 +1851,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CPS/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CPS/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -2059,7 +2059,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -2112,7 +2112,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -2191,7 +2191,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -2270,7 +2270,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/Cabinet/submodel/nameplate"
+				"id": "https://init-owl.de/aas/Cabinet/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -2478,7 +2478,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -2531,7 +2531,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -2610,7 +2610,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -2689,7 +2689,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/Conveyor/submodel/nameplate"
+				"id": "https://init-owl.de/aas/Conveyor/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -2897,7 +2897,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -2950,7 +2950,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -3029,7 +3029,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -3108,7 +3108,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/Laser/submodel/nameplate"
+				"id": "https://init-owl.de/aas/Laser/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -3316,7 +3316,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -3369,7 +3369,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -3448,7 +3448,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -3527,7 +3527,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/Exhaust/submodel/nameplate"
+				"id": "https://init-owl.de/aas/Exhaust/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -3735,7 +3735,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -3788,7 +3788,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -3867,7 +3867,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -3946,7 +3946,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -4154,7 +4154,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -4207,7 +4207,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -4286,7 +4286,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -4365,7 +4365,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -4573,7 +4573,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -4626,7 +4626,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -4705,7 +4705,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -4784,7 +4784,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetPLC/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -4992,7 +4992,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -5045,7 +5045,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -5124,7 +5124,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -5203,7 +5203,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -5411,7 +5411,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -5464,7 +5464,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -5543,7 +5543,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -5622,7 +5622,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -5830,7 +5830,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -5883,7 +5883,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -5962,7 +5962,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -6041,7 +6041,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/nameplate"
+				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -6249,7 +6249,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -6302,7 +6302,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -6381,7 +6381,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -6460,7 +6460,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -6668,7 +6668,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -6721,7 +6721,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -6800,7 +6800,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -6879,7 +6879,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorValves/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorValves/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -7087,7 +7087,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -7140,7 +7140,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -7219,7 +7219,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -7298,7 +7298,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorBC/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorBC/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -7506,7 +7506,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -7559,7 +7559,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -7638,7 +7638,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -7717,7 +7717,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -7925,7 +7925,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -7978,7 +7978,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -8057,7 +8057,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -8136,7 +8136,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -8344,7 +8344,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -8397,7 +8397,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -8476,7 +8476,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -8555,7 +8555,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorPN/submodel/nameplate"
+				"id": "https://init-owl.de/aas/ConveyorPN/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -8763,7 +8763,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -8816,7 +8816,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -8895,7 +8895,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -8974,7 +8974,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserSwitch/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserSwitch/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -9182,7 +9182,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -9235,7 +9235,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -9314,7 +9314,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -9393,7 +9393,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPC/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserPC/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -9601,7 +9601,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -9654,7 +9654,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -9733,7 +9733,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -9812,7 +9812,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPLC/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserPLC/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -10020,7 +10020,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -10073,7 +10073,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -10152,7 +10152,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -10231,7 +10231,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserBC/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserBC/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -10439,7 +10439,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -10492,7 +10492,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -10571,7 +10571,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -10650,7 +10650,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -10858,7 +10858,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -10911,7 +10911,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -10990,7 +10990,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -11069,7 +11069,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserControl/submodel/nameplate"
+				"id": "https://init-owl.de/aas/LaserControl/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -11277,7 +11277,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -11330,7 +11330,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -11409,7 +11409,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -11488,7 +11488,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/Exhaust/submodel/nameplate"
+				"id": "https://init-owl.de/aas/Exhaust/submodel/Nameplate"
 			},
 			"idShort": "Nameplate",
 			"modelType": {
@@ -11696,7 +11696,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61360_4#ADA005#001 country code. country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						},
@@ -11749,7 +11749,7 @@
 								"langString": [
 									{
 										"language": "de",
-										"text": "Musterstraße 1"
+										"text": "MusterstraÃŸe 1"
 									}
 								]
 							},
@@ -11828,7 +11828,7 @@
 							"descriptions": [
 								{
 									"language": "en",
-									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userâ€™s choice."
+									"text": "Note: see also [IRDI] 0112/2///61987#ABA281#001 ZIP/Postal code. Mandatory property according to EU Machine Directive 2006/42/EC. Recommendation: property declaration as MLP is required by its semantic definition. As the property value is language independent, users are recommended to provide maximal 1 string in any language of the userÃ¢â‚¬â„¢s choice."
 								}
 							]
 						}
@@ -15319,7 +15319,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -15329,9 +15329,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -15684,6 +15684,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -15692,7 +15698,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -15702,9 +15708,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -15861,6 +15867,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -15869,7 +15881,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -15879,9 +15891,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetPLC/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -16260,6 +16272,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -16268,7 +16286,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -16278,9 +16296,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -16659,6 +16677,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -16667,7 +16691,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -16677,9 +16701,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -17058,6 +17082,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -17066,7 +17096,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -17076,9 +17106,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -17416,6 +17446,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -17424,7 +17460,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -17434,9 +17470,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -17938,6 +17974,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -17946,7 +17988,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -17956,9 +17998,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorValves/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorValves/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -18156,6 +18198,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -18164,7 +18212,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -18174,9 +18222,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorBC/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorBC/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -18333,6 +18381,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -18341,7 +18395,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -18351,9 +18405,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -18510,6 +18564,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -18518,7 +18578,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -18528,9 +18588,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -18687,6 +18747,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -18695,7 +18761,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -18705,9 +18771,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorPN/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/ConveyorPN/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -18905,6 +18971,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -18913,7 +18985,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -18923,9 +18995,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserSwitch/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserSwitch/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -19427,6 +19499,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -19435,7 +19513,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -19445,9 +19523,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPC/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserPC/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -19641,6 +19719,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -19649,7 +19733,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -19659,9 +19743,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPLC/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserPLC/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -19927,6 +20011,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -19935,7 +20025,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -19945,9 +20035,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserBC/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserBC/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -20104,6 +20194,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -20112,7 +20208,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -20122,9 +20218,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -20281,6 +20377,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -20289,7 +20391,7 @@
 					{
 						"type": "GlobalReference",
 						"local": false,
-						"value": "https://init-owl.de/submodel/MiscComp",
+						"value": "https://init-owl.de/submodel/Miscellaneous",
 						"index": 0,
 						"idType": "IRI"
 					}
@@ -20299,9 +20401,9 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserControl/submodel/MiscComp"
+				"id": "https://init-owl.de/aas/LaserControl/submodel/Miscellaneous"
 			},
-			"idShort": "MiscComponentSubmodel",
+			"idShort": "Miscellaneous",
 			"category": "VARIABLE",
 			"modelType": {
 				"name": "Submodel"
@@ -20458,6 +20560,12 @@
 					],
 					"kind": "Instance"
 				}
+			],
+			"descriptions": [
+				{
+					"language": "en",
+					"text": "Miscellaneous component properties for which no submodels exists yet."
+				}
 			]
 		},
 		{
@@ -20476,7 +20584,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetSwitch/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -26151,7 +26259,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetRemoteAccess/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -31826,7 +31934,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetPLC/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -37501,7 +37609,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetPLC_2/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -43176,7 +43284,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetPLC_3/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -48851,7 +48959,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/CabinetPLC_4/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -54526,7 +54634,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorSwitch/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -60201,7 +60309,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorValves/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorValves/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -65876,7 +65984,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorBC/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorBC/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -71551,7 +71659,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorRFID/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -77226,7 +77334,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorLeakage/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -82901,7 +83009,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/ConveyorPN/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/ConveyorPN/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -88576,7 +88684,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserSwitch/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserSwitch/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -94251,7 +94359,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPC/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserPC/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -99926,7 +100034,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserPLC/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserPLC/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -105601,7 +105709,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserBC/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserBC/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -111276,7 +111384,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserEnergyMeter/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -116951,7 +117059,7 @@
 			"hasDataSpecification": [],
 			"identification": {
 				"idType": "IRI",
-				"id": "https://init-owl.de/aas/LaserControl/submodel/IEC62443_SL"
+				"id": "https://init-owl.de/aas/LaserControl/submodel/SecurityLevelIEC62443"
 			},
 			"idShort": "SecurityLevelIEC62443",
 			"category": "PARAMETER",
@@ -122693,7 +122801,7 @@
 						"definition": [
 							{
 								"language": "DE",
-								"text": "Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist"
+								"text": "Bezeichnung fÃ¼r eine natÃ¼rliche oder juristische Person, die fÃ¼r die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist"
 							},
 							{
 								"language": "EN",
@@ -123007,7 +123115,7 @@
 						"preferredName": [
 							{
 								"language": "DE",
-								"text": "Geeignet Für Sicherheitsfunktionen"
+								"text": "Geeignet FÃ¼r Sicherheitsfunktionen"
 							},
 							{
 								"language": "EN",

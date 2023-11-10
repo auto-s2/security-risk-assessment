@@ -137,7 +137,10 @@ Here are some additional resources with further information for related contents
 
 - [IDTA:](https://industrialdigitaltwin.org/) General information about the AAS
 - [Admin-Shell-IO:](https://admin-shell-io.com/) Information for Developers
-- [Submodel HierarchicalStructures:](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-02011-1-0_Submodel_HierarchicalStructuresEnablingBoM.pdf) Documentation for the Submodel HierarchicalStructures
+- [Submodel Nameplate:](https://industrialdigitaltwin.org/wp-content/uploads/2022/10/IDTA-02006-2-0_Submodel_Digital-Nameplate.pdf) Documentation for the Submodel "Digital Nameplate for
+Industrial Equipment" (PDF Download)
+- [Submodel ContactInformations:](https://industrialdigitaltwin.org/wp-content/uploads/2022/10/IDTA-02002-1-0_Submodel_ContactInformation.pdf) Documentation for the Submodel "Submodel for Contact Information" (PDF Download)
+- [Submodel HierarchicalStructures:](https://industrialdigitaltwin.org/wp-content/uploads/2023/04/IDTA-02011-1-0_Submodel_HierarchicalStructuresEnablingBoM.pdf) Documentation for the Submodel "Hierarchical Structures enabling Bills of Material" (PDF Download)
 - References with a proposal for an AAS Integrity Verification and Version Control:
     - Andre Bröring, Marco Ehrlich, Lukasz Wisniewski, Henning Trsek, Stefan Heiss, ["Towards an Asset Administration Shell Integrity Verification Scheme"](https://doi.org/10.1109/ETFA52439.2022.9921521), IEEE 27th International Conference on Emerging Technologies and Factory Automation (ETFA), pp. 1-4, 2022.
     - Andre Bröring, Marco Ehrlich, Lukasz Wisniewski, Henning Trsek, Stefan Heiss, ["An Asset Administration Shell Version Control to Enforce Integrity Protection"](https://doi.org/10.25644/a4ws-9a49), Kommunikation in der Automation: Beiträge des Jahreskolloquiums KommA 2022, pp. 192-203, 2022.

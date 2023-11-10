@@ -88,7 +88,7 @@ class Asset():
             print(aas.id)
 
     def get_suitable_for_safety_functions_property(self) -> bool:
-        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/Miscellaneous")
         if misc_component_submodel is None:
             return False
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
@@ -100,7 +100,7 @@ class Asset():
 
     def get_physical_port_endpoint_ids(self) -> list[(str, str)]:
         physical_port_id_list:list[(str, str)] = ([])
-        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/Miscellaneous")
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
@@ -111,7 +111,7 @@ class Asset():
 
     def get_cve_ids(self) -> list[str]:
         cve_id_list:list[str] = []
-        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/MiscComp")
+        misc_component_submodel = self.get_submodel_by_semantic_id("https://init-owl.de/submodel/Miscellaneous")
         if misc_component_submodel is None:
             return []
         misc_component_submodel_elements = get_submodel_elements_from_submodel(misc_component_submodel)
