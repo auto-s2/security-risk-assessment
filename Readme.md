@@ -24,7 +24,7 @@ This section describes how to use, test, and extend the prototypical implementat
 The repository consists of the following folders:
 
 - `aas_examples` contains Asset Administration Shells (AASs) acting as the basis for three test cases as well as AASs with Submodel Templates relating to the implementation
-- `doc` contains additional documentation documents
+- `doc` contains additional documentation including figures of the used AASs, the overall process, and the provided test cases
 - `knowledge` contains files with the formalized expert knowledge for the automated risk assessment
 - `src` contains the program code of the prototypical implementation
 
