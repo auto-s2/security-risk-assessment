@@ -98,7 +98,7 @@ def create_attestation(machine:Machine, computing_time:float) -> Machine:
     for key, value in risks_dict.items():
         value:Risk_Enum
         risks_dict[key] = ("with Risk", value)
-        print("- {:<15} {}  {}".format(key, *risks_dict[key]))
+        print("- {:<25} {}  {}".format(key, *risks_dict[key]))
 
     pdf = PDF(orientation='P', unit='mm', format='A4')
     pdf.add_page()
@@ -107,7 +107,7 @@ def create_attestation(machine:Machine, computing_time:float) -> Machine:
     pdf.text_block("Information", attestation_texts, 80)
     pdf.text_block("System under Consideration", suc_texts, 90)
     pdf.text_block("Results", results_texts, 120)
-    pdf.text_block("All Targets and Resulting Risks", risks_dict, 60)
+    pdf.text_block("All Targets and Resulting Risks", risks_dict, 84)
 
     pdf.image(setup.BASE_PATH + "/doc/AutoS2_Logo.png", x=150, y=20, w=40,h=40)
 
@@ -176,7 +176,7 @@ class PDF(FPDF):
         self.ln()
 
     def text_block(self, header:str, texts:dict, tab_size:int):
-        WIDTH = 140.0
+        WIDTH = 200.0
         HEIGHT = 6.0
         self.subheader(header)
         y = self.get_y()
@@ -195,7 +195,7 @@ class PDF(FPDF):
                 item:str
                 if item.isdigit():
                     align='R'
-                    # Digits always have the same with for nice alignment
+                    # Digits always have the same width for nice alignment
                     step_size = 3
                 else:
                     align='L'
