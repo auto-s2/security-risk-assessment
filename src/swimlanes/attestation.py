@@ -97,7 +97,7 @@ def create_attestation(machine:Machine, computing_time:float) -> Machine:
     print("All Targets and Resulting Risks:")
     for key, value in risks_dict.items():
         value:Risk_Enum
-        risks_dict[key] = ("with Risk", value)
+        risks_dict[key] = ("", value)
         print("- {:<25} {}  {}".format(key, *risks_dict[key]))
 
     pdf = PDF(orientation='P', unit='mm', format='A4')

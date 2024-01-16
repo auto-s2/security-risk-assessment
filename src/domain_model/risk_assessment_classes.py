@@ -45,7 +45,7 @@ class Impact_Enum(Enum):
 
 class Risk_Enum(Enum):
     UNDEFINED   = "UNDEFINED"
-    NORISK      = "NO RISK"
+    NORISK      = "NO RELEVANT RISK"
     VERYLOW     = "VERY LOW"
     LOW         = "LOW"
     MEDIUM      = "MEDIUM"
