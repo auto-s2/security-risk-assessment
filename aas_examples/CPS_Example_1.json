@@ -16784,7 +16784,7 @@
 					},
 					"value": [
 						{
-							"value": "CVE-2021-34570_PLC_3",
+							"value": "CVE-2021-34570 (modified for example 1)",
 							"semanticId": {
 								"keys": [
 									{
@@ -16820,7 +16820,7 @@
 							"kind": "Instance"
 						},
 						{
-							"value": "CVE-2020-12521_PLC_3",
+							"value": "CVE-2020-12521 (modified for example 1)",
 							"semanticId": {
 								"keys": [
 									{
@@ -16856,7 +16856,7 @@
 							"kind": "Instance"
 						},
 						{
-							"value": "CVE-2020-12519_PLC_3",
+							"value": "CVE-2020-12519 (modified for example 1)",
 							"semanticId": {
 								"keys": [
 									{
@@ -16892,7 +16892,7 @@
 							"kind": "Instance"
 						},
 						{
-							"value": "CVE-2020-12518_PLC_3",
+							"value": "CVE-2020-12518 (modified for example 1)",
 							"semanticId": {
 								"keys": [
 									{
@@ -16928,7 +16928,7 @@
 							"kind": "Instance"
 						},
 						{
-							"value": "CVE-2020-12517_PLC_3",
+							"value": "CVE-2020-12517 (modified for example 1)",
 							"semanticId": {
 								"keys": [
 									{

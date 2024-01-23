@@ -1,5 +1,5 @@
 {
-	"CVE-2021-34570_PLC_3": {
+	"CVE-2021-34570 (modified for example 1)": {
 		"attackVector": "NETWORK",
 		"scope": "UNCHANGED",
 		"attackComplexity": "HIGH",
@@ -7,7 +7,7 @@
 		"integrityImpact": "NONE",
 		"availabilityImpact": "HIGH"
 	},
-		"CVE-2020-12521_PLC_3": {
+		"CVE-2020-12521 (modified for example 1)": {
 		"attackVector": "ADJACENT_NETWORK",
 		"scope": "UNCHANGED",
 		"attackComplexity": "HIGH",
@@ -15,7 +15,7 @@
 		"integrityImpact": "NONE",
 		"availabilityImpact": "HIGH"
 	},
-	"CVE-2020-12519_PLC_3": {
+	"CVE-2020-12519 (modified for example 1)": {
 		"attackVector": "NETWORK",
 		"scope": "UNCHANGED",
 		"attackComplexity": "HIGH",
@@ -23,7 +23,7 @@
 		"integrityImpact": "HIGH",
 		"availabilityImpact": "HIGH"
 	},
-	"CVE-2020-12518_PLC_3": {
+	"CVE-2020-12518 (modified for example 1)": {
 		"attackVector": "LOCAL",
 		"scope": "UNCHANGED",
 		"attackComplexity": "HIGH",
@@ -31,7 +31,7 @@
 		"integrityImpact": "NONE",
 		"availabilityImpact": "NONE"
 	},
-	"CVE-2020-12517_PLC_3": {
+	"CVE-2020-12517 (modified for example 1)": {
 		"attackVector": "NETWORK",
 		"scope": "CHANGED",
 		"attackComplexity": "HIGH",
