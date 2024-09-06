@@ -6,8 +6,8 @@ This repository is currently work in progress and used to display the results fr
 
 - [INDIN 2023](https://ieeexplore.ieee.org/document/10217902): Determining the Target Security Level for Automated Security Risk Assessments (published)
 - [ETFA 2023](https://ieeexplore.ieee.org/document/10275455): Evaluation Concept for Prototypical Implementation towards Automated Security Risk Assessments (published)
-- [WFCS 2024](https://wfcs24.inviteo.fr): Requirements Analysis for the Evaluation of Automated Security Risk Assessments (accepted, but not yet published)
-- [ETFA 2024](https://2024.ieee-etfa.org): Evaluation of an Automated Security Risk Assessment based on a Manual Reference (in review)
+- [WFCS 2024](https://ieeexplore.ieee.org/document/10540830): Requirements Analysis for the Evaluation of Automated Security Risk Assessments (published)
+- [ETFA 2024](https://2024.ieee-etfa.org): Evaluation of an Automated Security Risk Assessment based on a Manual Reference (accepted, but not yet published)
 
 Therefore, any feedback regarding the presented contents here in this repository are highly appreciated and can be submitted to us using the contact details from the bottom of this file.
 
